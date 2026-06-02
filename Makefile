@@ -1,4 +1,18 @@
-.PHONY: all download convert clean run_dbt profiling notebook dashboard
+.PHONY: all download convert clean run_dbt profiling notebook dashboard help
+
+help:
+	@echo "Usage: make [target]"
+	@echo ""
+	@echo "Targets:"
+	@echo "  help       : Affiche cette aide"
+	@echo "  all        : Télécharge, convertit, nettoie, exécute dbt et lance le dashboard"
+	@echo "  download   : Télécharge les données (scripts/download_kaggle.py)"
+	@echo "  convert    : Convertit les données csv en parquet (scripts/convert_to_parquet.py)"
+	@echo "  clean      : Nettoie les fichiers parquet (scripts/clean_parquet.py)"
+	@echo "  run_dbt    : Exécute les modèles dbt (scripts/run_dbt.py)"
+	@echo "  profiling  : Lance le script de profiling (scripts/profiling_2015.py)"
+	@echo "  notebook   : Exécute quelques notebooks (nbconvert --execute)"
+	@echo "  dashboard  : Lance le dashboard Streamlit (dashboard/app.py)"
 
 all: download convert clean run_dbt dashboard
 
