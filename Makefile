@@ -1,6 +1,6 @@
 .PHONY: all help install download convert clean run_dbt profiling notebook dashboard
 
-all: install download convert clean run_dbt dashboard
+all: install download convert #clean run_dbt dashboard
 
 help:
 	@echo "Utilisez python 3.10 ou 3.11"
