@@ -11,7 +11,7 @@ help:
 	@echo "  help       : Affiche cette aide"
 	@echo "  all        : Installation, téléchargement, conversion, nettoyage, dbt et dashboard"
 	@echo "  install    : Installe les dépendances Python depuis requirements.txt"
-	@echo "  download   : Télécharge les données (scripts/download_kaggle.py)"
+	@echo "  download   : Verifier la presence des données (scripts/download_kaggle.py)"
 	@echo "  convert    : Convertit les données csv en parquet (scripts/convert_to_parquet.py)"
 	@echo "  clean      : Nettoie les fichiers parquet (scripts/clean_parquet.py)"
 	@echo "  run_dbt    : Exécute les modèles dbt (scripts/run_dbt.py)"
