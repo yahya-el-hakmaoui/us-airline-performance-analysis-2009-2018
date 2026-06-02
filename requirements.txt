@@ -6,7 +6,7 @@ pyarrow
 duckdb
 dbt-core
 dbt-duckdb
-ydata-profiling
+#ydata-profiling
 plotly
 matplotlib
 seaborn
