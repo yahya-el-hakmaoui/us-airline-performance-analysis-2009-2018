@@ -130,9 +130,6 @@ def main():
         print("Vérification ignorée (--skip-check)")
         sys.exit(0)
     
-    print("="*60)
-    print("VÉRIFICATION DES DONNÉES KAGGLE")
-    print("="*60)
     print(f"Dossier de données: {Path(DATA_RAW_PATH).absolute()}")
     print(f"Période attendue: 2009-2018\n")
     
@@ -151,9 +148,6 @@ def main():
     print(f"   Manquants: {len(missing_files)}/10 fichiers")
     
     if len(present_files) == 10:
-        print("\n" + "="*60)
-        print("SUCCÈS - Tous les fichiers CSV sont présents!")
-        print("="*60)
         print("\nLes fichiers vérifiés sont prêts pour la conversion en Parquet.")
         print("   Lancez 'make convert' ou 'python scripts/convert_to_parquet.py'")
         sys.exit(0)
