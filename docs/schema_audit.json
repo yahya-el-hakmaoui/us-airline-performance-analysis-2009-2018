@@ -1,0 +1,3297 @@
+{
+  "reference_year": 2015,
+  "years": [
+    {
+      "year": 2009,
+      "path": "/home/kitchen/Desktop/us-airline-performance-analysis-2009-2018/data/csv_raw/2009.csv",
+      "row_count": 6429338,
+      "column_count": 28,
+      "columns": [
+        {
+          "name": "FL_DATE",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER_FL_NUM",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ORIGIN",
+          "dtype": "String"
+        },
+        {
+          "name": "DEST",
+          "dtype": "String"
+        },
+        {
+          "name": "CRS_DEP_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "DEP_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DEP_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_OUT",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_OFF",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_ON",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_IN",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ARR_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ARR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ARR_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLATION_CODE",
+          "dtype": "String"
+        },
+        {
+          "name": "DIVERTED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ACTUAL_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "AIR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DISTANCE",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CARRIER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WEATHER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "NAS_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "SECURITY_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "LATE_AIRCRAFT_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "Unnamed: 27",
+          "dtype": "String"
+        }
+      ],
+      "null_rates": {
+        "ARR_DELAY": 1.5921,
+        "CANCELLED": 0.0,
+        "CARRIER_DELAY": 81.7944,
+        "DEP_DELAY": 1.2889,
+        "NAS_DELAY": 81.7944,
+        "SECURITY_DELAY": 81.7944,
+        "LATE_AIRCRAFT_DELAY": 81.7944,
+        "WEATHER_DELAY": 81.7944
+      }
+    },
+    {
+      "year": 2010,
+      "path": "/home/kitchen/Desktop/us-airline-performance-analysis-2009-2018/data/csv_raw/2010.csv",
+      "row_count": 6450117,
+      "column_count": 28,
+      "columns": [
+        {
+          "name": "FL_DATE",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER_FL_NUM",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ORIGIN",
+          "dtype": "String"
+        },
+        {
+          "name": "DEST",
+          "dtype": "String"
+        },
+        {
+          "name": "CRS_DEP_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "DEP_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DEP_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_OUT",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_OFF",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_ON",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_IN",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ARR_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ARR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ARR_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLATION_CODE",
+          "dtype": "String"
+        },
+        {
+          "name": "DIVERTED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ACTUAL_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "AIR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DISTANCE",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CARRIER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WEATHER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "NAS_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "SECURITY_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "LATE_AIRCRAFT_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "Unnamed: 27",
+          "dtype": "String"
+        }
+      ],
+      "null_rates": {
+        "ARR_DELAY": 1.9958,
+        "CANCELLED": 0.0,
+        "CARRIER_DELAY": 81.7851,
+        "DEP_DELAY": 1.6864,
+        "NAS_DELAY": 81.7851,
+        "SECURITY_DELAY": 81.7851,
+        "LATE_AIRCRAFT_DELAY": 81.7851,
+        "WEATHER_DELAY": 81.7851
+      }
+    },
+    {
+      "year": 2011,
+      "path": "/home/kitchen/Desktop/us-airline-performance-analysis-2009-2018/data/csv_raw/2011.csv",
+      "row_count": 6066650,
+      "column_count": 28,
+      "columns": [
+        {
+          "name": "FL_DATE",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER_FL_NUM",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ORIGIN",
+          "dtype": "String"
+        },
+        {
+          "name": "DEST",
+          "dtype": "String"
+        },
+        {
+          "name": "CRS_DEP_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "DEP_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DEP_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_OUT",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_OFF",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_ON",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_IN",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ARR_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ARR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ARR_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLATION_CODE",
+          "dtype": "String"
+        },
+        {
+          "name": "DIVERTED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ACTUAL_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "AIR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DISTANCE",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CARRIER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WEATHER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "NAS_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "SECURITY_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "LATE_AIRCRAFT_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "Unnamed: 27",
+          "dtype": "String"
+        }
+      ],
+      "null_rates": {
+        "ARR_DELAY": 2.1501,
+        "CANCELLED": 0.0,
+        "CARRIER_DELAY": 81.6945,
+        "DEP_DELAY": 1.8412,
+        "NAS_DELAY": 81.6945,
+        "SECURITY_DELAY": 81.6945,
+        "LATE_AIRCRAFT_DELAY": 81.6945,
+        "WEATHER_DELAY": 81.6945
+      }
+    },
+    {
+      "year": 2012,
+      "path": "/home/kitchen/Desktop/us-airline-performance-analysis-2009-2018/data/csv_raw/2012.csv",
+      "row_count": 6096762,
+      "column_count": 28,
+      "columns": [
+        {
+          "name": "FL_DATE",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER_FL_NUM",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ORIGIN",
+          "dtype": "String"
+        },
+        {
+          "name": "DEST",
+          "dtype": "String"
+        },
+        {
+          "name": "CRS_DEP_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DEP_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DEP_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_OUT",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_OFF",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_ON",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_IN",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ARR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ARR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ARR_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLATION_CODE",
+          "dtype": "String"
+        },
+        {
+          "name": "DIVERTED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ACTUAL_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "AIR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DISTANCE",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CARRIER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WEATHER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "NAS_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "SECURITY_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "LATE_AIRCRAFT_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "Unnamed: 27",
+          "dtype": "String"
+        }
+      ],
+      "null_rates": {
+        "ARR_DELAY": 1.4988,
+        "CANCELLED": 0.0,
+        "CARRIER_DELAY": 83.3492,
+        "DEP_DELAY": 1.242,
+        "NAS_DELAY": 83.3492,
+        "SECURITY_DELAY": 83.3492,
+        "LATE_AIRCRAFT_DELAY": 83.3492,
+        "WEATHER_DELAY": 83.3492
+      }
+    },
+    {
+      "year": 2013,
+      "path": "/home/kitchen/Desktop/us-airline-performance-analysis-2009-2018/data/csv_raw/2013.csv",
+      "row_count": 6369482,
+      "column_count": 28,
+      "columns": [
+        {
+          "name": "FL_DATE",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER_FL_NUM",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ORIGIN",
+          "dtype": "String"
+        },
+        {
+          "name": "DEST",
+          "dtype": "String"
+        },
+        {
+          "name": "CRS_DEP_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "DEP_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DEP_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_OUT",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_OFF",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_ON",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_IN",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ARR_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ARR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ARR_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLATION_CODE",
+          "dtype": "String"
+        },
+        {
+          "name": "DIVERTED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ACTUAL_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "AIR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DISTANCE",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CARRIER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WEATHER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "NAS_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "SECURITY_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "LATE_AIRCRAFT_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "Unnamed: 27",
+          "dtype": "String"
+        }
+      ],
+      "null_rates": {
+        "ARR_DELAY": 1.7297,
+        "CANCELLED": 0.0,
+        "CARRIER_DELAY": 80.0725,
+        "DEP_DELAY": 1.4394,
+        "NAS_DELAY": 80.0725,
+        "SECURITY_DELAY": 80.0725,
+        "LATE_AIRCRAFT_DELAY": 80.0725,
+        "WEATHER_DELAY": 80.0725
+      }
+    },
+    {
+      "year": 2014,
+      "path": "/home/kitchen/Desktop/us-airline-performance-analysis-2009-2018/data/csv_raw/2014.csv",
+      "row_count": 5819811,
+      "column_count": 28,
+      "columns": [
+        {
+          "name": "FL_DATE",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER_FL_NUM",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ORIGIN",
+          "dtype": "String"
+        },
+        {
+          "name": "DEST",
+          "dtype": "String"
+        },
+        {
+          "name": "CRS_DEP_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "DEP_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DEP_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_OUT",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_OFF",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_ON",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_IN",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ARR_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ARR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ARR_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLATION_CODE",
+          "dtype": "String"
+        },
+        {
+          "name": "DIVERTED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ACTUAL_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "AIR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DISTANCE",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CARRIER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WEATHER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "NAS_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "SECURITY_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "LATE_AIRCRAFT_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "Unnamed: 27",
+          "dtype": "String"
+        }
+      ],
+      "null_rates": {
+        "ARR_DELAY": 2.4302,
+        "CANCELLED": 0.0,
+        "CARRIER_DELAY": 78.6844,
+        "DEP_DELAY": 2.109,
+        "NAS_DELAY": 78.6844,
+        "SECURITY_DELAY": 78.6844,
+        "LATE_AIRCRAFT_DELAY": 78.6844,
+        "WEATHER_DELAY": 78.6844
+      }
+    },
+    {
+      "year": 2015,
+      "path": "/home/kitchen/Desktop/us-airline-performance-analysis-2009-2018/data/csv_raw/2015.csv",
+      "row_count": 5819079,
+      "column_count": 28,
+      "columns": [
+        {
+          "name": "FL_DATE",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER_FL_NUM",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ORIGIN",
+          "dtype": "String"
+        },
+        {
+          "name": "DEST",
+          "dtype": "String"
+        },
+        {
+          "name": "CRS_DEP_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "DEP_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DEP_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_OUT",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_OFF",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_ON",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_IN",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ARR_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ARR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ARR_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLATION_CODE",
+          "dtype": "String"
+        },
+        {
+          "name": "DIVERTED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ACTUAL_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "AIR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DISTANCE",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CARRIER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WEATHER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "NAS_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "SECURITY_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "LATE_AIRCRAFT_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "Unnamed: 27",
+          "dtype": "String"
+        }
+      ],
+      "null_rates": {
+        "ARR_DELAY": 1.8056,
+        "CANCELLED": 0.0,
+        "CARRIER_DELAY": 81.725,
+        "DEP_DELAY": 1.4805,
+        "NAS_DELAY": 81.725,
+        "SECURITY_DELAY": 81.725,
+        "LATE_AIRCRAFT_DELAY": 81.725,
+        "WEATHER_DELAY": 81.725
+      }
+    },
+    {
+      "year": 2016,
+      "path": "/home/kitchen/Desktop/us-airline-performance-analysis-2009-2018/data/csv_raw/2016.csv",
+      "row_count": 5617658,
+      "column_count": 28,
+      "columns": [
+        {
+          "name": "FL_DATE",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER_FL_NUM",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ORIGIN",
+          "dtype": "String"
+        },
+        {
+          "name": "DEST",
+          "dtype": "String"
+        },
+        {
+          "name": "CRS_DEP_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "DEP_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DEP_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_OUT",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_OFF",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_ON",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_IN",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ARR_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ARR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ARR_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLATION_CODE",
+          "dtype": "String"
+        },
+        {
+          "name": "DIVERTED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ACTUAL_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "AIR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DISTANCE",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CARRIER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WEATHER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "NAS_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "SECURITY_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "LATE_AIRCRAFT_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "Unnamed: 27",
+          "dtype": "String"
+        }
+      ],
+      "null_rates": {
+        "ARR_DELAY": 1.4154,
+        "CANCELLED": 0.0,
+        "CARRIER_DELAY": 82.8356,
+        "DEP_DELAY": 1.1296,
+        "NAS_DELAY": 82.8356,
+        "SECURITY_DELAY": 82.8356,
+        "LATE_AIRCRAFT_DELAY": 82.8356,
+        "WEATHER_DELAY": 82.8356
+      }
+    },
+    {
+      "year": 2017,
+      "path": "/home/kitchen/Desktop/us-airline-performance-analysis-2009-2018/data/csv_raw/2017.csv",
+      "row_count": 5674621,
+      "column_count": 28,
+      "columns": [
+        {
+          "name": "FL_DATE",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER_FL_NUM",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ORIGIN",
+          "dtype": "String"
+        },
+        {
+          "name": "DEST",
+          "dtype": "String"
+        },
+        {
+          "name": "CRS_DEP_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "DEP_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DEP_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_OUT",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_OFF",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_ON",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_IN",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ARR_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ARR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ARR_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLATION_CODE",
+          "dtype": "String"
+        },
+        {
+          "name": "DIVERTED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ACTUAL_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "AIR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DISTANCE",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CARRIER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WEATHER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "NAS_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "SECURITY_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "LATE_AIRCRAFT_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "Unnamed: 27",
+          "dtype": "String"
+        }
+      ],
+      "null_rates": {
+        "ARR_DELAY": 1.6778,
+        "CANCELLED": 0.0,
+        "CARRIER_DELAY": 81.8583,
+        "DEP_DELAY": 1.4158,
+        "NAS_DELAY": 81.8583,
+        "SECURITY_DELAY": 81.8583,
+        "LATE_AIRCRAFT_DELAY": 81.8583,
+        "WEATHER_DELAY": 81.8583
+      }
+    },
+    {
+      "year": 2018,
+      "path": "/home/kitchen/Desktop/us-airline-performance-analysis-2009-2018/data/csv_raw/2018.csv",
+      "row_count": 7213446,
+      "column_count": 28,
+      "columns": [
+        {
+          "name": "FL_DATE",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER",
+          "dtype": "String"
+        },
+        {
+          "name": "OP_CARRIER_FL_NUM",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ORIGIN",
+          "dtype": "String"
+        },
+        {
+          "name": "DEST",
+          "dtype": "String"
+        },
+        {
+          "name": "CRS_DEP_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "DEP_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DEP_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_OUT",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_OFF",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WHEELS_ON",
+          "dtype": "Float64"
+        },
+        {
+          "name": "TAXI_IN",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ARR_TIME",
+          "dtype": "Int64"
+        },
+        {
+          "name": "ARR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ARR_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CANCELLATION_CODE",
+          "dtype": "String"
+        },
+        {
+          "name": "DIVERTED",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CRS_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "ACTUAL_ELAPSED_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "AIR_TIME",
+          "dtype": "Float64"
+        },
+        {
+          "name": "DISTANCE",
+          "dtype": "Float64"
+        },
+        {
+          "name": "CARRIER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "WEATHER_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "NAS_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "SECURITY_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "LATE_AIRCRAFT_DELAY",
+          "dtype": "Float64"
+        },
+        {
+          "name": "Unnamed: 27",
+          "dtype": "String"
+        }
+      ],
+      "null_rates": {
+        "ARR_DELAY": 1.8998,
+        "CANCELLED": 0.0,
+        "CARRIER_DELAY": 81.2474,
+        "DEP_DELAY": 1.6252,
+        "NAS_DELAY": 81.2474,
+        "SECURITY_DELAY": 81.2474,
+        "LATE_AIRCRAFT_DELAY": 81.2474,
+        "WEATHER_DELAY": 81.2474
+      }
+    }
+  ],
+  "schema_comparison": [
+    {
+      "year": 2009,
+      "column": "ACTUAL_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "AIR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "ARR_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "ARR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "CANCELLATION_CODE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "CANCELLED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "CARRIER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "CRS_ARR_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "CRS_DEP_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "CRS_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "DEP_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "DEP_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "DEST",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "DISTANCE",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "DIVERTED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "FL_DATE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "LATE_AIRCRAFT_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "NAS_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "OP_CARRIER",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "OP_CARRIER_FL_NUM",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "ORIGIN",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "SECURITY_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "TAXI_IN",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "TAXI_OUT",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "Unnamed: 27",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "WEATHER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "WHEELS_OFF",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2009,
+      "column": "WHEELS_ON",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "ACTUAL_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "AIR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "ARR_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "ARR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "CANCELLATION_CODE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "CANCELLED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "CARRIER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "CRS_ARR_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "CRS_DEP_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "CRS_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "DEP_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "DEP_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "DEST",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "DISTANCE",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "DIVERTED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "FL_DATE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "LATE_AIRCRAFT_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "NAS_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "OP_CARRIER",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "OP_CARRIER_FL_NUM",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "ORIGIN",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "SECURITY_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "TAXI_IN",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "TAXI_OUT",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "Unnamed: 27",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "WEATHER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "WHEELS_OFF",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2010,
+      "column": "WHEELS_ON",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "ACTUAL_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "AIR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "ARR_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "ARR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "CANCELLATION_CODE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "CANCELLED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "CARRIER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "CRS_ARR_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "CRS_DEP_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "CRS_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "DEP_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "DEP_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "DEST",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "DISTANCE",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "DIVERTED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "FL_DATE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "LATE_AIRCRAFT_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "NAS_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "OP_CARRIER",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "OP_CARRIER_FL_NUM",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "ORIGIN",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "SECURITY_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "TAXI_IN",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "TAXI_OUT",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "Unnamed: 27",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "WEATHER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "WHEELS_OFF",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2011,
+      "column": "WHEELS_ON",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "ACTUAL_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "AIR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "ARR_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "ARR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "CANCELLATION_CODE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "CANCELLED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "CARRIER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "CRS_ARR_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Float64",
+      "status": "type_diff"
+    },
+    {
+      "year": 2012,
+      "column": "CRS_DEP_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Float64",
+      "status": "type_diff"
+    },
+    {
+      "year": 2012,
+      "column": "CRS_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "DEP_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "DEP_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "DEST",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "DISTANCE",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "DIVERTED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "FL_DATE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "LATE_AIRCRAFT_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "NAS_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "OP_CARRIER",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "OP_CARRIER_FL_NUM",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "ORIGIN",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "SECURITY_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "TAXI_IN",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "TAXI_OUT",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "Unnamed: 27",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "WEATHER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "WHEELS_OFF",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2012,
+      "column": "WHEELS_ON",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "ACTUAL_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "AIR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "ARR_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "ARR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "CANCELLATION_CODE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "CANCELLED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "CARRIER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "CRS_ARR_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "CRS_DEP_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "CRS_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "DEP_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "DEP_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "DEST",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "DISTANCE",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "DIVERTED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "FL_DATE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "LATE_AIRCRAFT_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "NAS_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "OP_CARRIER",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "OP_CARRIER_FL_NUM",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "ORIGIN",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "SECURITY_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "TAXI_IN",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "TAXI_OUT",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "Unnamed: 27",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "WEATHER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "WHEELS_OFF",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2013,
+      "column": "WHEELS_ON",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "ACTUAL_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "AIR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "ARR_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "ARR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "CANCELLATION_CODE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "CANCELLED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "CARRIER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "CRS_ARR_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "CRS_DEP_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "CRS_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "DEP_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "DEP_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "DEST",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "DISTANCE",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "DIVERTED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "FL_DATE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "LATE_AIRCRAFT_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "NAS_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "OP_CARRIER",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "OP_CARRIER_FL_NUM",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "ORIGIN",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "SECURITY_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "TAXI_IN",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "TAXI_OUT",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "Unnamed: 27",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "WEATHER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "WHEELS_OFF",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2014,
+      "column": "WHEELS_ON",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "ACTUAL_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "AIR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "ARR_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "ARR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "CANCELLATION_CODE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "CANCELLED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "CARRIER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "CRS_ARR_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "CRS_DEP_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "CRS_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "DEP_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "DEP_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "DEST",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "DISTANCE",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "DIVERTED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "FL_DATE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "LATE_AIRCRAFT_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "NAS_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "OP_CARRIER",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "OP_CARRIER_FL_NUM",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "ORIGIN",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "SECURITY_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "TAXI_IN",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "TAXI_OUT",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "Unnamed: 27",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "WEATHER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "WHEELS_OFF",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2015,
+      "column": "WHEELS_ON",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "ACTUAL_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "AIR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "ARR_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "ARR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "CANCELLATION_CODE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "CANCELLED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "CARRIER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "CRS_ARR_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "CRS_DEP_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "CRS_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "DEP_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "DEP_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "DEST",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "DISTANCE",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "DIVERTED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "FL_DATE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "LATE_AIRCRAFT_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "NAS_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "OP_CARRIER",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "OP_CARRIER_FL_NUM",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "ORIGIN",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "SECURITY_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "TAXI_IN",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "TAXI_OUT",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "Unnamed: 27",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "WEATHER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "WHEELS_OFF",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2016,
+      "column": "WHEELS_ON",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "ACTUAL_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "AIR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "ARR_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "ARR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "CANCELLATION_CODE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "CANCELLED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "CARRIER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "CRS_ARR_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "CRS_DEP_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "CRS_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "DEP_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "DEP_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "DEST",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "DISTANCE",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "DIVERTED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "FL_DATE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "LATE_AIRCRAFT_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "NAS_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "OP_CARRIER",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "OP_CARRIER_FL_NUM",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "ORIGIN",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "SECURITY_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "TAXI_IN",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "TAXI_OUT",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "Unnamed: 27",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "WEATHER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "WHEELS_OFF",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2017,
+      "column": "WHEELS_ON",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "ACTUAL_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "AIR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "ARR_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "ARR_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "CANCELLATION_CODE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "CANCELLED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "CARRIER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "CRS_ARR_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "CRS_DEP_TIME",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "CRS_ELAPSED_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "DEP_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "DEP_TIME",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "DEST",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "DISTANCE",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "DIVERTED",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "FL_DATE",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "LATE_AIRCRAFT_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "NAS_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "OP_CARRIER",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "OP_CARRIER_FL_NUM",
+      "reference_dtype": "Int64",
+      "current_dtype": "Int64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "ORIGIN",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "SECURITY_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "TAXI_IN",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "TAXI_OUT",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "Unnamed: 27",
+      "reference_dtype": "String",
+      "current_dtype": "String",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "WEATHER_DELAY",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "WHEELS_OFF",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    },
+    {
+      "year": 2018,
+      "column": "WHEELS_ON",
+      "reference_dtype": "Float64",
+      "current_dtype": "Float64",
+      "status": "match"
+    }
+  ],
+  "anomalies": {
+    "type_differences_vs_reference": [
+      {
+        "year": 2012,
+        "column": "CRS_ARR_TIME",
+        "reference_dtype": "Int64",
+        "current_dtype": "Float64",
+        "status": "type_diff"
+      },
+      {
+        "year": 2012,
+        "column": "CRS_DEP_TIME",
+        "reference_dtype": "Int64",
+        "current_dtype": "Float64",
+        "status": "type_diff"
+      }
+    ],
+    "notable_type_difference_years": [
+      {
+        "year": 2012,
+        "columns": [
+          "CRS_DEP_TIME",
+          "CRS_ARR_TIME"
+        ],
+        "reference_dtype": "Int64",
+        "observed_dtype": "Float64",
+        "note": "2012.csv infers these scheduled time columns as Float64 while every other year matches Int64."
+      }
+    ]
+  }
+}
