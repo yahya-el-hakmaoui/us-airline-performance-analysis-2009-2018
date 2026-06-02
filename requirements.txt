@@ -1,7 +1,6 @@
 pandas
 polars
 numpy
-kagglehub
 pyarrow
 duckdb
 dbt-core
