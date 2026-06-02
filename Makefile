@@ -1,4 +1,6 @@
-.PHONY: all download convert clean run_dbt profiling notebook dashboard help
+.PHONY: all help download convert clean run_dbt profiling notebook dashboard
+
+all: download convert clean run_dbt dashboard
 
 help:
 	@echo "Usage: make [target]"
@@ -13,8 +15,6 @@ help:
 	@echo "  profiling  : Lance le script de profiling (scripts/profiling_2015.py)"
 	@echo "  notebook   : Exécute quelques notebooks (nbconvert --execute)"
 	@echo "  dashboard  : Lance le dashboard Streamlit (dashboard/app.py)"
-
-all: download convert clean run_dbt dashboard
 
 download:
 	python scripts/download_kaggle.py
