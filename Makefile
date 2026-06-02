@@ -3,6 +3,8 @@
 all: install download convert clean run_dbt dashboard
 
 help:
+	@echo "Utilisez python 3.10 ou 3.11"
+	@echo 
 	@echo "Usage: make [target]"
 	@echo ""
 	@echo "Targets:"
@@ -32,6 +34,7 @@ help:
 
 install:
 	@echo "Installation des dépendances Python..."
+	@echo "Utilisez python 3.10 ou 3.11"
 	pip install -r requirements.txt
 	@echo "Installation terminée."
 
