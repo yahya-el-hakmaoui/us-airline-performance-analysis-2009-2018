@@ -14,7 +14,7 @@ print(df.head())
 # profiling
 
 # FIX: nouveau import compatible
-from data_profiling import ProfileReport
+from ydata_profiling import ProfileReport
 
 profile = ProfileReport(
     df,
