@@ -1,0 +1,17 @@
+pandas
+polars
+numpy
+kagglehub
+pyarrow
+duckdb
+dbt-core
+dbt-duckdb
+ydata-profiling
+plotly
+matplotlib
+seaborn
+jupyterlab
+ipykernel
+python-dotenv
+tqdm
+python-dateutil
