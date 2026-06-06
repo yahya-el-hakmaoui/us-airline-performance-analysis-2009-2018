@@ -64,21 +64,21 @@ for file in files:
         df = df.with_columns(pl.col(c).fill_null(0))
 
     # =========================
-    # STEP 9: OTP_STRICT
+    # STEP 9: ind1
     # =========================
     df = df.with_columns(
         (pl.col("ARR_DELAY") <= 0)
         .cast(pl.Int8)
-        .alias("OTP_STRICT")
+        .alias("ind1")
     )
 
     # =========================
-    # STEP 10: OTP_30
+    # STEP 10:ind2
     # =========================
     df = df.with_columns(
         (pl.col("ARR_DELAY") <= 30)
         .cast(pl.Int8)
-        .alias("OTP_30")
+        .alias("ind2")
     )
 
     # =========================

@@ -1,9 +1,45 @@
-# Author: TAHA 
-#lire CSV
+# Author: TAHA
 
 import pandas as pd
+import os
+from pathlib import Path
+from dotenv import load_dotenv, find_dotenv
 
-df = pd.read_csv("data/raw/2015.csv")
+# =========================
+# LOAD .ENV
+# =========================
+
+load_dotenv(find_dotenv())
+
+DATA_RAW_PATH = os.getenv("DATA_RAW_PATH")
+REPORTS_PROFILING_PATH = os.getenv("REPORTS_PROFILING_PATH")
+
+if not DATA_RAW_PATH:
+    raise ValueError("DATA_RAW_PATH not found in .env")
+
+if not REPORTS_PROFILING_PATH:
+    raise ValueError("REPORTS_PROFILING_PATH not found in .env")
+
+# =========================
+# BASE DIRECTORY
+# =========================
+
+BASE_DIR = Path(__file__).resolve().parents[1]
+
+csv_file = BASE_DIR / DATA_RAW_PATH / "2015.csv"
+
+report_dir = BASE_DIR / REPORTS_PROFILING_PATH
+report_dir.mkdir(parents=True, exist_ok=True)
+
+report_file = report_dir / "profiling_2015.html"
+
+# =========================
+# READ CSV
+# =========================
+
+print("Reading:", csv_file)
+
+df = pd.read_csv(csv_file)
 
 # checking the dataset:lignes,colonnes,types
 
@@ -11,9 +47,10 @@ print(df.shape)
 print(df.info())
 print(df.head())
 
-# profiling
+# =========================
+# PROFILING
+# =========================
 
-# FIX: nouveau import compatible
 from ydata_profiling import ProfileReport
 
 profile = ProfileReport(
@@ -21,13 +58,14 @@ profile = ProfileReport(
     minimal=False
 )
 
-# export
-profile.to_file(
-    "reports/profiling/profiling_2015.html"
-)
+profile.to_file(str(report_file))
 
-# Analyse manuelle demandée par le CDC:
-#Nulls des causes
+print("Profiling saved to:", report_file)
+
+# =========================
+# ANALYSE MANUELLE CDC
+# =========================
+
 cause_cols = [
     "CARRIER_DELAY",
     "WEATHER_DELAY",
@@ -37,23 +75,20 @@ cause_cols = [
 ]
 
 for c in cause_cols:
-    print(c, df[c].isna().mean()*100)
+    print(f"{c}: {df[c].isna().mean()*100:.2f}%")
 
-#Distribution ARR_DELAY
+# Distribution ARR_DELAY
 
-df["ARR_DELAY"].describe()
+print(df["ARR_DELAY"].describe())
 
-# FIX: création de la colonne manquante ARR_DEL15
+# Vérification ARR_DEL15
+
 df["ARR_DEL15"] = (df["ARR_DELAY"] > 15).astype(int)
 
-#Vérification ARR_DEL15
-
 errors = df[
-    (
-        (df["ARR_DELAY"] > 15)
-        &
-        (df["ARR_DEL15"] != 1)
-    )
+    (df["ARR_DELAY"] > 15)
+    &
+    (df["ARR_DEL15"] != 1)
 ]
 
-print(errors.shape)
+print("Errors shape:", errors.shape)
