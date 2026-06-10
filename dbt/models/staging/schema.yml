@@ -1,0 +1,71 @@
+version: 2
+
+models:
+
+  - name: stg_flights
+    description: "Cleaned airline staging flights"
+
+    columns:
+
+      - name: FL_DATE
+        data_tests:
+          - not_null
+
+      - name: OP_CARRIER
+        data_tests:
+          - not_null
+
+  - name: dim_carrier
+
+    columns:
+
+      - name: carrier_key
+        data_tests:
+          - unique
+          - not_null
+
+      - name: iata_code
+        data_tests:
+          - not_null
+
+  - name: dim_date
+
+    columns:
+
+      - name: date_key
+        data_tests:
+          - unique
+          - not_null
+
+      - name: full_date
+        data_tests:
+          - unique
+
+  - name: fact_flights
+
+    columns:
+
+      - name: flight_key
+        data_tests:
+          - unique
+          - not_null
+
+      - name: carrier_key
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_carrier')
+              field: carrier_key
+
+      - name: date_key
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_date')
+              field: date_key
+
+      - name: CANCELLATION_CODE
+        data_tests:
+          - accepted_values:
+              values: ['A', 'B', 'C', 'D']
+              quote: true

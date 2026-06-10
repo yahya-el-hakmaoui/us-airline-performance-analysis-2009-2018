@@ -1,0 +1,8 @@
+airline_performance:
+  target: dev
+
+  outputs:
+    dev:
+      type: duckdb
+      path: ../data/airline_performance.duckdb
+      threads: 4
